@@ -30,7 +30,7 @@ services:
     image: vprocontainers/vprofileapp
     container_name: vproapp
     ports:
-      - "8080:8080"
+      - "9090:8080"
     volumes:
       - vproappdata:/usr/local/tomcat/webapps
     
